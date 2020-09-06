@@ -1,3 +1,12 @@
 {
-    "python.pythonPath": "/home/linuxbrew/.linuxbrew/bin/python3"
+    "python.pythonPath": "/home/linuxbrew/.linuxbrew/bin/python3",
+    "sqltools.connections": [
+        {
+            "database": "\\\\wsl$\\Ubuntu\\home\\durrjp\\workspace\\Python\\StudentExercise\\studentexercises.db",
+            "driver": "SQLite",
+            "name": "studentexercises",
+            "previewLimit": 50
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }
